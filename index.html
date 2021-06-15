@@ -18,14 +18,13 @@
         <form action="" method="post" id="survey-form">
             <div class="wrapper">
                 <fieldset id="form-group">
-                    <legend>About you <span>(Required)</span></legend>
+                    <legend>About you <span class="hint">(required)</span></legend>
                     <label for="name" id="name-label">Name</label>
                     <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required>
                     <label for="email" id="email-label">Email</label>
                     <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required>
                     <label for="number" id="number-label">Age</label>
-                    <input type="number" name="age" id="number" class="form-control" placeholder="Enter your age" min="10"
-                        max="99" required>
+                    <input type="number" name="age" id="number" class="form-control" placeholder="Enter your age" min="10" max="99" required>
                 </fieldset>
                 <fieldset id="form-group">
                     <legend>What is your current occupation ?</legend>
@@ -41,18 +40,18 @@
                 </fieldset>
                 <fieldset id="form-group">
                     <legend>How do you consider your coding level ?</legend>
-                    <label for="newbie"><input type="radio" id="newbie" name="level" value="Newbie">Newbie</label>
-                    <label for="intermediate"><input type="radio" id="intermediate" name="level" value="Intermediate">Intermediate</label>
-                    <label for="advanced"><input type="radio" id="advanced" name="level" value="Advanced">Advanced</label>
+                    <label for="newbie" class="hovered"><input type="radio" id="newbie" name="level" value="Newbie">Newbie</label>
+                    <label for="intermediate" class="hovered"><input type="radio" id="intermediate" name="level" value="Intermediate">Intermediate</label>
+                    <label for="advanced" class="hovered"><input type="radio" id="advanced" name="level" value="Advanced">Advanced</label>
                 </fieldset>
                 <fieldset id="form-group">
-                    <legend>What got you involved to start coding ?<span>(Multiple Answers Allowed)</span></legend>
-                    <label for="opportunity"><input type="checkbox" id="opportunity" name="influence" value="Opportunity">Job opportunity</label>
-                    <label for="market"><input type="checkbox" id="market" name="influence" value="Market">Market growth</label>
-                    <label for="interest"><input type="checkbox" id="interest" name="influence" value="Interest">Interest about this topic</label>
-                    <label for="someone"><input type="checkbox" id="someone" name="influence" value="Someone">By someone in this field</label>
-                    <label for="ressources"><input type="checkbox" id="ressources" name="influence" value="Ressources">Ressources available</label>
-                    <label for="other"><input type="checkbox" id="other" name="influence" value="Other">Other</label>
+                    <legend>What got you involved to start coding ?<span class="hint">(multiple answers allowed)</span></legend>
+                    <label for="opportunity" class="hovered"><input type="checkbox" id="opportunity" name="influence" value="Opportunity">Job opportunity</label>
+                    <label for="market" class="hovered"><input type="checkbox" id="market" name="influence" value="Market">Market growth</label>
+                    <label for="interest" class="hovered"><input type="checkbox" id="interest" name="influence" value="Interest">Interest about this topic</label>
+                    <label for="someone" class="hovered"><input type="checkbox" id="someone" name="influence" value="Someone">By someone in this field</label>
+                    <label for="ressources" class="hovered"><input type="checkbox" id="ressources" name="influence" value="Ressources">Ressources available</label>
+                    <label for="other" class="hovered"><input type="checkbox" id="other" name="influence" value="Other">Other</label>
                 </fieldset>
                 <fieldset id="form-group">
                     <legend>Want to add something more about your journey ?</legend>
