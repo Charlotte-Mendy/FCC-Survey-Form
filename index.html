@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Coding journey survey</title>
+</head>
+<body>
+    <header id="header">
+        <h1 id="title">Coding journey survey</h1>
+        <p id="description">We would welcome your feedback on your experience about your coding journey. Thank you for taking time to fill out this survey</p>
+    </header>
+    <main id="main">
+        <form action="" method="post" id="survey-form">
+            <div class="wrapper">
+                <fieldset id="form-group">
+                    <legend>About you <span>(Required)</span></legend>
+                    <label for="name" id="name-label">Name</label>
+                    <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required>
+                    <label for="email" id="email-label">Email</label>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required>
+                    <label for="number" id="number-label">Age</label>
+                    <input type="number" name="age" id="number" class="form-control" placeholder="Enter your age" min="10"
+                        max="99" required>
+                </fieldset>
+                <fieldset id="form-group">
+                    <legend>What is your current occupation ?</legend>
+                    <select name="occupation-list" id="dropdown">
+                        <option value="" selected disabled>Choose an occupation</option>
+                        <option value="Employed">Employed</option>
+                        <option value="Searching">Looking for a job</option>
+                        <option value="Bootcamp">Attending a bootcamp</option>
+                        <option value="Student">Student</option>
+                        <option value="Working">Self-taught</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </fieldset>
+                <fieldset id="form-group">
+                    <legend>How do you consider your coding level ?</legend>
+                    <label for="newbie"><input type="radio" id="newbie" name="level" value="Newbie">Newbie</label>
+                    <label for="intermediate"><input type="radio" id="intermediate" name="level" value="Intermediate">Intermediate</label>
+                    <label for="advanced"><input type="radio" id="advanced" name="level" value="Advanced">Advanced</label>
+                </fieldset>
+                <fieldset id="form-group">
+                    <legend>What got you involved to start coding ?<span>(Multiple Answers Allowed)</span></legend>
+                    <label for="opportunity"><input type="checkbox" id="opportunity" name="influence" value="Opportunity">Job opportunity</label>
+                    <label for="market"><input type="checkbox" id="market" name="influence" value="Market">Market growth</label>
+                    <label for="interest"><input type="checkbox" id="interest" name="influence" value="Interest">Interest about this topic</label>
+                    <label for="someone"><input type="checkbox" id="someone" name="influence" value="Someone">By someone in this field</label>
+                    <label for="ressources"><input type="checkbox" id="ressources" name="influence" value="Ressources">Ressources available</label>
+                    <label for="other"><input type="checkbox" id="other" name="influence" value="Other">Other</label>
+                </fieldset>
+                <fieldset id="form-group">
+                    <legend>Want to add something more about your journey ?</legend>
+                    <label for="comments">Tell us more !</label>
+                    <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Enter your comment"></textarea>
+                </fieldset>
+                <div id="validation">
+                    <button type="submit" id="submit" value="Submit">Submit</button>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer id="footer"></footer>
+</body>
+</html>
