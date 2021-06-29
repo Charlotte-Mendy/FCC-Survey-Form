@@ -13,7 +13,7 @@ Here are the steps I followed to organize my work :
 * CSS
 ## Screenshots
 Mobile :
- <div style="text-align:center "><img src="screenshot-mobile.png" width="200"/></div>
+ <div style="text-align:center"><img src="screenshot-mobile.png" width="200"/></div>
 Desktop :
  <div style="text-align:center"><img src="screenshot-desktop.png" width="800"/></div>
 
